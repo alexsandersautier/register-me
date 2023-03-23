@@ -9,8 +9,8 @@ def is_register(choice):
 
 def message(user,date_register,card):
     print(f'''
-    Olá {user}, seu registro foi concluído com sucesso no dia {date_register.strftime('%d/%m/%Y')}.
-    Parabéns, houve um sorteio e você ganhou um cartão de compras no valor de {card}
+    Hello {user}, your registration was completed successfully on {date_register.strftime('%d/%m/%Y')}.
+    Congratulations, there's been a draw and you've won a shopping card worth {card}
     ''')
 
 what = ['y','n']
